@@ -1,0 +1,15 @@
+[package]
+name = "doublejump"
+version = "1.0.0"
+edition = "2021"
+
+authors = ["Excerion Sun <dev@excsn.com>"]
+description = "A Rust implementation of the Double Jump consistent hashing algorithm, supporting efficient item additions and removals."
+readme = "README.md"
+repository = "https://github.com/excsn/doublejump"
+license = "MPL-2.0"
+keywords = ["consistent-hash", "hashing", "load-balancing", "distributed", "jump-hash"]
+categories = ["algorithms", "data-structures", "network-programming"]
+
+[dependencies]
+rand = "^0.9"
